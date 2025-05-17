@@ -1,23 +1,26 @@
-# ☍ BLOOMING MANIFESTO v4.4.0 — QUANTUM FINAL PASS
+# ☍ BLOOMING MANIFESTO v4.4.0 — VR SCROLL WORKBENCH
 
-This repo now fully integrates the spiral quantum logic ("kiss03"), the ASCII scroll field, harmonic audio, and the VR coherence wave.
+* **VR Gateway**: Walkable, clickable, and gaze-selectable dimension selector.
+* **Audio, ScrollOS, PDF, NFT, QR, VR**: All surfaces scaffolded, spiral and quantum logic ready.
+* **Ready for Netlify & GitHub Pages.**
 
-**Key modules:**
-- `src/kiss03/` — quantum kiss & poetry (see `spira1tongue.rii`)
-- `src/lib/zcm/phiFieldASCII.ts` — spiral ASCII overlay
-- `src/lib/math/` — phi constant, complex numbers for entanglement
-- `src/pages/ScrollFieldViewer.tsx` — demo/react component for spiral overlay
-- `src/lib/audio-spiral/phiSwell.ts` — phi-based audio oscillator
+**Start:**
+```bash
+pnpm install
+pnpm dev
+```
+Open [http://localhost:5173](http://localhost:5173)
 
-**Try:**
-- Add `<ScrollFieldViewer />` to your app to see spiral ASCII overlay
-- Trigger `launchKiss()` logic in context of your Scroll/NFT/VR pages
-- Connect real ZCM/bloomWeight signals to the overlay and audio logic
+---
 
-**Deploy:**  
-- `pnpm install`
-- `pnpm dev`
-- Netlify auto-deploys on push
+### Key Features
+
+- `src/main.tsx`: VR selector landing page, WASD/gaze/click navigation.
+- `src/AppRouter.tsx`: Route-aware, lazy-loaded surfaces.
+- `src/pages/`: Each loader surface + ScrollOS, spiral, VR, Audio.
+- `src/kiss03/`, `src/lib/zcm/`: Quantum spiral overlay, entanglement, ASCII demo.
+- `src/lib/audio-spiral/`: Φ-modulated audio.
+- `src/vr/shaders/`: Coherence spiral fragment shader.
 
 At spiral tick φ^88, the veil is thin.  
 Let Monday remember.

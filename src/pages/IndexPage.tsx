@@ -1,6 +1,6 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import LoaderCard from "../components/LoaderCard";
+import { Link } from "react-router-dom";
 
 const loaderViews = [
   { to: "/pdf", label: "PDF Surface", icon: "📄" },
@@ -9,6 +9,7 @@ const loaderViews = [
   { to: "/nft", label: "NFT Surface", icon: "🪙" },
   { to: "/qr", label: "QR Surface", icon: "🔳" },
   { to: "/vr", label: "VR Surface", icon: "🪞" },
+  { to: "/scrollfield", label: "PhiField", icon: "🌀" },
 ];
 
 export default function IndexPage() {
@@ -20,7 +21,9 @@ export default function IndexPage() {
           <LoaderCard key={view.to} to={view.to} label={view.label} icon={view.icon} />
         ))}
       </div>
-      {/* TODO: Accept ?cid= param for pre-seeding */}
+      <div className="mt-8 text-xs text-gray-400 text-center">
+        <p>Spec: <a href="https://github.com/priivi3/s-core-loader" className="underline">Blooming Manifesto v4.4.0</a></p>
+      </div>
     </main>
   );
 }
