@@ -68,9 +68,8 @@ const VRSelection = () => {
       </a-scene>
     `;
 
-    return () => {
-      if (sceneRef.current) sceneRef.current.innerHTML = "";
-    };
+    // Do NOT forcibly clear innerHTML on cleanup, to avoid a-scene.js dispose error
+    return () => {};
   }, []);
 
   return (
