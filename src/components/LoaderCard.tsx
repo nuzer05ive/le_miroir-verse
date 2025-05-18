@@ -1,20 +1,18 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 interface LoaderCardProps {
-  to: string;
   label: string;
-  icon: string;
+  to: string;
 }
 
-export default function LoaderCard({ to, label, icon }: LoaderCardProps) {
+export default function LoaderCard({ label, to }: LoaderCardProps) {
   return (
     <Link
       to={to}
-      className="rounded-lg border border-gray-300 p-6 flex flex-col items-center bg-white hover:shadow-lg transition"
+      className="border border-gray-300 rounded-md p-4 flex items-center justify-center hover:bg-gray-100"
     >
-      <span className="text-3xl mb-2">{icon}</span>
-      <span className="text-lg font-semibold">{label}</span>
+      <span className="font-semibold">{label}</span>
     </Link>
   );
 }

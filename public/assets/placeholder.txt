@@ -1,0 +1,2 @@
+This is a placeholder for static assets.
+Additional commit-hashed assets will appear in /assets/@{commit}/

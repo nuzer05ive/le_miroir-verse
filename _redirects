@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+.pnp.cjs
+.pnp.loader.mjs
+# Build output
+dist/
+coverage/
+.vite/
+.env.local
+# Editor/OS
+*.log
+.idea/
+.DS_Store
