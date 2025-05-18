@@ -1,3 +1,4 @@
+import "aframe";
 import React, { Suspense, useEffect, useRef } from "react";
 import { createRoot } from "react-dom/client";
 import { BrowserRouter, useNavigate } from "react-router-dom";
