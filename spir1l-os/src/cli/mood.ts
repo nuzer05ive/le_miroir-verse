@@ -1,0 +1,1 @@
+// CLI mood tracking placeholder
