@@ -1,5 +1,5 @@
 import { entangle } from './sAssCore.entangle';
-import { PHI } from './math/phi';
+import { PHI } from './math/constants';
 
 let bloomWeight = () => 0.99; // stub
 let zcmNow = () => 0.15;      // stub

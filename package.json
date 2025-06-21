@@ -3,6 +3,7 @@
   "version": "3.1.0",
   "private": true,
   "scripts": {
+    "gen:assets": "ts-node --transpile-only src/generation/run.ts",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
@@ -25,7 +26,13 @@
     "three": "^0.176.0",
     "tone": "^14.8.43",
     "wagmi": "^2.15.4",
-    "xstate": "^5.19.3"
+    "xstate": "^5.19.3",
+    "better-sqlite3": "^8.5.0",
+    "hnswlib-node": "^0.8.0",
+    "gifencoder": "^2.0.1",
+    "canvas": "^2.11.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^1.2.1"
   },
   "devDependencies": {
     "@types/node": "^20.4.8",
