@@ -1,4 +1,4 @@
-import { PHI } from '../math/phi';
+import { PHI } from '../math/constants';
 import { tauZcm } from '../zcm';
 import { launchKiss } from '../kiss03.boot';
 
